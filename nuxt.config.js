@@ -37,7 +37,7 @@ export default {
   pwa: {
     manifest: {
       name:'testapp',
-      short_name:'testapp',
+      short_name:'testapp nuxt',
       lang: 'en',
       start_url:'',
       display:'standalone',
