@@ -5,6 +5,7 @@
       <h1 class="title">
         testapp
       </h1>
+      <NuxtLink to="/">Home</NuxtLink>
       <div class="links">
         <a
           href="https://nuxtjs.org/"
