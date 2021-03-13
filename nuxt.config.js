@@ -45,7 +45,7 @@ export default {
       name:'testapp',
       short_name:'testapp nuxt',
       lang: 'en',
-      start_url:'./',
+      start_url:'/',
       display:'standalone',
       icons:[]
     },
