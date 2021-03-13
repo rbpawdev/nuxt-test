@@ -25,12 +25,18 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    '@nuxtjs/pwa',
+    '@nuxtjs/vuetify',
   ],
+
+  vuetify: {
+    /* module options */
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/pwa
-    '@nuxtjs/pwa',
+    //'@nuxtjs/pwa',
   ],
 
   // PWA module configuration: https://go.nuxtjs.dev/pwa
@@ -39,7 +45,7 @@ export default {
       name:'testapp',
       short_name:'testapp nuxt',
       lang: 'en',
-      start_url:'',
+      start_url:'./',
       display:'standalone',
       icons:[]
     },
