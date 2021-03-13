@@ -109,6 +109,16 @@ export default {}
           ></v-text-field>
         </v-col>
       </v-row>
+      <v-row>
+        <v-col>
+          <v-btn
+            color="primary"
+            elevation="2"
+            tile
+            medium>
+          </v-btn>
+        </v-col>
+      </v-row>
     </v-container>
   </v-form>
 </template>
