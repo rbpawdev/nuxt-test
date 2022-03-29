@@ -104,7 +104,7 @@ export default {}
         >
           <v-text-field
             label="Input Text"
-            placeholder="First Name"
+            placeholder="First Name:"
             solo
           ></v-text-field>
           <v-btn
